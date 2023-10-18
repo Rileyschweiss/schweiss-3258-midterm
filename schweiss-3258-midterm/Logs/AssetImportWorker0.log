@@ -2748,3 +2748,107 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 643.441439 seconds.
+  path: Assets/New Material 4.mat
+  artifactKey: Guid(4ff829b931a244923acde98da4a13231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 4.mat using Guid(4ff829b931a244923acde98da4a13231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcdee3f7989ed5470da1bf08ab5cdc4') in 1.247764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.841882 seconds.
+  path: Assets/New Material 4.mat
+  artifactKey: Guid(4ff829b931a244923acde98da4a13231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material 4.mat using Guid(4ff829b931a244923acde98da4a13231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d58c33b34f65594b0197915efbe3e5') in 0.071946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.627 seconds
+Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.794 seconds
+Domain Reload Profiling: 6425ms
+	BeginReloadAssembly (910ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (82ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (231ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (149ms)
+	LoadAllAssembliesAndSetupDomain (1481ms)
+		LoadAssemblies (1176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (796ms)
+			TypeCache.Refresh (751ms)
+				TypeCache.ScanAssembly (711ms)
+			ScanForSourceGeneratedMonoScriptInfo (21ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3797ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (41ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (258ms)
+			ProcessInitializeOnLoadAttributes (1926ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Refreshing native plugins compatible for Editor in 1.46 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.7 KB). Loaded Objects now: 3721.
+Memory consumption went from 292.5 MB to 292.5 MB.
+Total: 5.165375 ms (FindLiveObjects: 0.349667 ms CreateObjectMapping: 0.171958 ms MarkObjects: 4.527041 ms  DeleteObjects: 0.113667 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 544.319758 seconds.
+  path: Assets/patrolenemy.asset
+  artifactKey: Guid(eab8a463346644ad39c775a2e4fc543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/patrolenemy.asset using Guid(eab8a463346644ad39c775a2e4fc543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c34859e94bc5363e0fdca7c5c6ad061') in 1.219338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 69.184551 seconds.
+  path: Assets/patrolenemy.asset
+  artifactKey: Guid(eab8a463346644ad39c775a2e4fc543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/patrolenemy.asset using Guid(eab8a463346644ad39c775a2e4fc543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f96916b03394cf3b3b8c2eb56d1a5f83') in 0.105960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 176.168566 seconds.
+  path: Assets/patrolenemy.asset
+  artifactKey: Guid(eab8a463346644ad39c775a2e4fc543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/patrolenemy.asset using Guid(eab8a463346644ad39c775a2e4fc543a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a833e43773d8ba44201c88daab531987') in 1.420345 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
