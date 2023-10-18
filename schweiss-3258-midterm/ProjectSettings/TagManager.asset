@@ -6,6 +6,7 @@ TagManager:
   tags:
   - coin
   - switch
+  - score
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - ground
   - coin
   - switch
-  - 
+  - score
   - 
   - 
   - 
