@@ -8,6 +8,8 @@ TagManager:
   - switch
   - score
   - trap
+  - ammo
+  - bulletbox
   layers:
   - Default
   - TransparentFX
